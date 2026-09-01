@@ -1,0 +1,311 @@
+<title>Page301 Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap">
+
+<style>
+  :root {
+    --bg: #FAFAF8;
+    --bg-section: #F3F2EF;
+    --text: #1A1D28;
+    --text-secondary: #5A6070;
+    --accent: #C8830A;
+    --accent-subtle: #FBF0DF;
+    --rule: #DDD9D0;
+    --mono: 'DM Mono', 'Courier New', monospace;
+    --serif: 'Source Serif 4', Georgia, serif;
+    --max: 660px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111318;
+      --bg-section: #191C23;
+      --text: #E8E5DE;
+      --text-secondary: #8A909F;
+      --accent: #D9940E;
+      --accent-subtle: #221A0A;
+      --rule: #2A2D38;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #111318;
+    --bg-section: #191C23;
+    --text: #E8E5DE;
+    --text-secondary: #8A909F;
+    --accent: #D9940E;
+    --accent-subtle: #221A0A;
+    --rule: #2A2D38;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--serif);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 1.5rem 5rem;
+  }
+
+  .page {
+    max-width: var(--max);
+    margin: 0 auto;
+  }
+
+  /* Header */
+  .site-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2.5rem 0 2rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 2.5rem;
+  }
+
+  .site-header h1 {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    line-height: 1.4;
+  }
+
+  .site-header h1 strong {
+    display: block;
+    font-size: 1.05rem;
+    color: var(--text);
+    letter-spacing: 0.04em;
+    margin-bottom: 0.15rem;
+  }
+
+  .badge {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--accent);
+    background: var(--accent-subtle);
+    border: 1px solid var(--accent);
+    padding: 0.3rem 0.55rem;
+    letter-spacing: 0.06em;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+  }
+
+  /* Intro blurb */
+  .intro {
+    background: var(--bg-section);
+    border-left: 3px solid var(--accent);
+    padding: 1.1rem 1.4rem;
+    margin-bottom: 3rem;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.65;
+  }
+
+  /* Sections */
+  section {
+    margin-bottom: 2.75rem;
+  }
+
+  .section-label {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+  }
+
+  section h2 {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.35;
+    margin-bottom: 0.9rem;
+    text-wrap: balance;
+  }
+
+  section p {
+    margin-bottom: 0.9rem;
+    font-size: 1rem;
+  }
+
+  section p:last-child { margin-bottom: 0; }
+
+  section ul {
+    padding-left: 1.4rem;
+    margin-bottom: 0.9rem;
+  }
+
+  section ul li {
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 0 0 2.75rem;
+  }
+
+  /* Third-party card */
+  .third-party-card {
+    background: var(--bg-section);
+    border: 1px solid var(--rule);
+    padding: 1.1rem 1.4rem;
+    margin: 1rem 0;
+  }
+
+  .third-party-card h3 {
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--text);
+    letter-spacing: 0.04em;
+    margin-bottom: 0.4rem;
+  }
+
+  .third-party-card p {
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  /* Footer */
+  .doc-footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .doc-footer p {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+    letter-spacing: 0.04em;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  a:hover { text-decoration: none; }
+
+  @media (max-width: 540px) {
+    body { font-size: 16px; }
+    .site-header { flex-direction: column; gap: 1rem; }
+    .doc-footer { flex-direction: column; }
+  }
+
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="page">
+
+  <header class="site-header">
+    <h1>
+      <strong>Page301</strong>
+      Privacy Policy
+    </h1>
+    <div class="badge">P.301</div>
+  </header>
+
+  <div class="intro">
+    This policy explains what information is collected when you use Page301, who collects it, and how it is used. Page301 is a free app — advertising helps keep it that way. We do not collect personal information ourselves; this policy is primarily about the advertising partners we work with.
+  </div>
+
+  <section>
+    <div class="section-label">01 — Who we are</div>
+    <h2>AM Studios</h2>
+    <p>Page301 is published by AM Studios. If you have any questions about this privacy policy, you can contact us at <a href="mailto:allen175@gmail.com">allen175@gmail.com</a>.</p>
+  </section>
+
+  <hr>
+
+  <section>
+    <div class="section-label">02 — What information is collected</div>
+    <h2>We do not collect personal data directly</h2>
+    <p>Page301 does not ask you to create an account, does not request your name, email address, or location, and does not store any information about you on our servers.</p>
+    <p>The app fetches live football scores from a proxy server we operate via Cloudflare Workers. Cloudflare may log standard server-side request metadata (IP address, timestamp, request path) as part of normal infrastructure operation. We do not use this data to identify you and do not retain it beyond Cloudflare's standard log retention periods.</p>
+    <p>Our advertising partner, Google AdMob, may collect information as described in the section below.</p>
+  </section>
+
+  <hr>
+
+  <section>
+    <div class="section-label">03 — Advertising and third parties</div>
+    <h2>Google AdMob</h2>
+    <p>Page301 uses Google AdMob to display banner advertisements. AdMob may collect the following to serve and measure ads:</p>
+    <ul>
+      <li>Advertising identifier (IDFA on iOS, Advertising ID on Android)</li>
+      <li>Device type, operating system, and language</li>
+      <li>IP address (used to infer approximate location)</li>
+      <li>Ad interaction data (impressions, clicks)</li>
+    </ul>
+    <p>This data is handled under Google's privacy policy. You can review it at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
+
+    <div class="third-party-card">
+      <h3>iOS — App Tracking Transparency</h3>
+      <p>On iOS 14.5 and later, the app will ask for your permission before AdMob accesses your device's advertising identifier. You can change this at any time in <strong>Settings → Privacy & Security → Tracking</strong>.</p>
+    </div>
+
+    <div class="third-party-card">
+      <h3>EU / EEA users — Consent</h3>
+      <p>If you are located in the European Union or European Economic Area, the app will display a consent form before any personalised ads are shown. You can withdraw or change your consent at any time by reinstalling the app or via your device settings.</p>
+    </div>
+  </section>
+
+  <hr>
+
+  <section>
+    <div class="section-label">04 — Data retention</div>
+    <h2>We hold no user data to retain</h2>
+    <p>Because we do not collect personal information directly, there is no user data for us to retain or delete. For data held by Google AdMob, please refer to Google's data retention policies.</p>
+  </section>
+
+  <hr>
+
+  <section>
+    <div class="section-label">05 — Children</div>
+    <h2>Page301 is not directed at children</h2>
+    <p>Page301 is not intended for children under 13. We do not knowingly collect personal information from children. If you believe a child has provided personal data to us, please contact us and we will take steps to remove it.</p>
+  </section>
+
+  <hr>
+
+  <section>
+    <div class="section-label">06 — Your rights</div>
+    <h2>GDPR and data subject rights</h2>
+    <p>If you are located in the EU or EEA, you have rights under the General Data Protection Regulation (GDPR), including the right to access, correct, or delete personal data held about you, and the right to object to processing.</p>
+    <p>Since Page301 does not itself hold personal data, most requests of this nature will need to be directed to Google. We are happy to help you understand your options — contact us at the address below.</p>
+  </section>
+
+  <hr>
+
+  <section>
+    <div class="section-label">07 — Changes</div>
+    <h2>Updates to this policy</h2>
+    <p>If we make material changes to this policy, we will update the effective date below. Continued use of Page301 after changes are posted constitutes acceptance of the revised policy. We encourage you to review this page periodically.</p>
+  </section>
+
+  <footer class="doc-footer">
+    <p>Effective date: 1 September 2026</p>
+    <p>AM Studios &mdash; <a href="mailto:allen175@gmail.com">allen175@gmail.com</a></p>
+  </footer>
+
+</div>
